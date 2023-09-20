@@ -3,7 +3,7 @@ import '../Expenses/ExpenseItem.css';
 import Card from '../UI/Card';
 import React from 'react';
 
-export default function ExpenseItem(props) {
+const ExpenseItem = (props) => {
   // props is a key value pair of attributes from app.js
 
   // JSX code:
@@ -33,4 +33,6 @@ export default function ExpenseItem(props) {
   //     )
   //   )
   // );
-}
+};
+
+export default ExpenseItem;
